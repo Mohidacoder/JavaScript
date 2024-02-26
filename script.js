@@ -8,7 +8,7 @@ console.log(`the bill was ${bill}, tip was ${tip}, and the otal value ${bill + t
     }else if( num % 2 ===1){
         console.log (`${num} toq son`)
     }
-}*/
+}
 
 "use script";
 const calctip = function (bill){
@@ -38,5 +38,24 @@ const calcAverage = function (arr) {
 
 console.log(calcAverage(bills));
 console.log(calcAverage(tips));
-console.log(calcAverage(totals));
+console.log(calcAverage(totals));*/
 
+//---------------------------------------------------------------------------------
+
+//const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // 45
+
+let sum = 0;
+for (let i = 0; i < arr.length; i++) {
+  sum = sum + arr[i];
+  // sum = 0 + 1
+  // sum = 1 + 2
+  // sum = 3 + 3
+  // sum = 6 + 4
+  // sum = 10 + 5
+  // sum = 15 + 6
+  // sum = 21 + 7
+  // sum = 28 + 8
+  // sum = 36 + 9
+  // sum = 45
+}
+console.log(sum);

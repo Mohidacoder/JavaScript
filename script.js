@@ -2,6 +2,14 @@
 const tip = bill >= 50 && bill <= 300 ? bill * 0.25 : bill * 0.30;
 console.log(`the bill was ${bill}, tip was ${tip}, and the otal value ${bill + tip}`);*/
 
+/*for (let num=1; num <=50; num++){
+    if(num % 2 ===0){
+        console.log (`${num} juft son`);
+    }else if( num % 2 ===1){
+        console.log (`${num} toq son`)
+    }
+}*/
+
 "use script";
 const calctip = function (bill){
     const tip = bill >= 50 && bill >= 300 ? bill * 0.15 : bill * 0.2;
